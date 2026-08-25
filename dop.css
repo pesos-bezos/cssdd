@@ -434,7 +434,9 @@ input.io {
 
 }
 @media screen and (max-width: 375px){
- 
+ .ret{
+     text-align:center;
+ }
 }
 @media screen and (max-width: 320px){
   
