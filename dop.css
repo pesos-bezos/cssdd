@@ -434,7 +434,7 @@ input.io {
 
 }
 @media screen and (max-width: 375px){
- ret2{
+ .ret2{
      width: 140px;
  }
 }
