@@ -32,9 +32,9 @@ header {
 
 ol {
     display: flex;
-    width: 275px;
+    width: 260px;
     justify-content: space-between;
-    padding-right: 60px;
+    
 }
 
 li {
@@ -437,6 +437,9 @@ input.io {
  .ret{
      text-align:center;
  }
+    li{
+        
+    }
 }
 @media screen and (max-width: 320px){
   
