@@ -55,9 +55,7 @@ h5
     justify-content: center;
     align-items: center;
 }
- .ret h1{
-    padding-left:30px;
-  }
+
 .ret2 {
     height: 175px;
     display: flex;
@@ -436,7 +434,9 @@ input.io {
 
 }
 @media screen and (max-width: 375px){
- 
+ ret2{
+     width: 140px;
+ }
 }
 @media screen and (max-width: 320px){
   
