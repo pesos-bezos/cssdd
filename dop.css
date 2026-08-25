@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0081a1;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* ================= HEADER ================= */
+
+.main {
+    background-image: url(images/bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ol {
+    display: flex;
+    width: 275px;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+h1,
+h3,
+h4,
+h2,
+h6,
+h5
+ {
+    color: white;
+    padding-left: 50px;
+}
+
+.ret {
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ret2 {
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.ret2 h4 {
+    border: 1px white solid;
+    padding: 15px;
+    text-align: center;
+}
+
+/* ================= 4 BLOCKS ================= */
+
+.under {
+    min-height: 1740px;
+    background-color: #0081a1;
+}
+
+.yellowupurple {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.e,
+.green,
+.yellow,
+.purple {
+    max-width: 585px;
+    min-height: 333px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+    padding: 20px;
+}
+
+.e {
+    background-color: red;
+}
+
+.green {
+    background-color: yellow;
+}
+
+.yellow {
+    background-color: lightgreen;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.minie {
+    width: 100px;
+    height: 100px;
+
+    background-color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+.minie img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* ================= TEMPOR ================= */
+
+.y67 {
+    padding-top: 40px;
+}
+
+.lf {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.re {
+    text-align: center;
+}
+
+.p3 {
+    padding-top: 30px;
+    color: white;
+}
+
+/* ================= FACES ================= */
+
+.faces {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    flex-wrap: wrap;
+}
+
+.w,
+.qer,
+.qer1 {
+    max-width: 360px;
+    width: 100%;
+   
+}
+
+.div,
+.pop,
+.fo {
+    width: 350px;
+    height: 6px;
+    padding: 0;
+}
+
+.div {
+    background-color: red;
+}
+
+.pop {
+    background-color: orange;
+}
+
+.fo {
+    background-color: green;
+}
+
+.hate,
+.delete,
+.delete1 {
+    width: 350px;
+    height: 250px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #006e90fa;
+}
+
+.hate {
+    background-image: url(images/face1.png);
+}
+
+.delete {
+    background-image: url(images/face2.png);
+}
+
+.delete1 {
+    background-image: url(images/face3.png);
+}
+
+.text {
+    width: 350px;
+    height: 135px;
+    text-align: center;
+    background-color: #006e90fa;
+    padding: 10px;
+}
+
+.bu,
+.bo,
+.bo1 {
+    width: 340px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bu button,
+.bo button,
+.bo1 button {
+    width: 100px;
+    height: 35px;
+    border: none;
+    color: white;
+}
+
+.bu button {
+    background-color: red;
+}
+
+.bo button {
+    background-color: orange;
+}
+
+.bo1 button {
+    background-color: green;
+}
+
+/* ================= CONTACT ================= */
+
+.plsssss {
+    min-height: 600px;
+    background-color: #0f4859fa;
+    padding-top: 60px;
+  
+}
+
+.caminiz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.felt {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qwert {
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    background-image: url(images/mail.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: -50px;
+    z-index: 2;
+}
+
+.joiok {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.teryt {
+
+ display:flex;
+ justify-content: center;
+}
+
+.formn {
+    width: 900px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+   justify-content: space-between;
+}
+
+.k,
+.d{
+    max-width: 270px;
+    height: 60px;
+    background-color: #006e90fa;
+    
+    border: 1px solid white;
+}
+
+input.io {
+    width: 600px;
+   height: 60px;
+   background-color: #006e90fa;
+    border: 1px solid white;
+}
+.ji {
+    width: 100%;
+    text-align: center;
+}
+
+.jert {
+    border: none;
+    background-color: #006e90fa;
+    color: white;
+    padding: 15px 30px;
+}
+
+.left,
+.right {
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+    clear: both;
+   
+}
+
+.feis,
+.twit {
+    width: 35px;
+    height: 35px;
+
+    display: inline-block;
+
+    background-color: white;
+    border-radius: 50%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feis {
+    background-image: url(images/facebook.png);
+}
+
+.twit {
+    background-image: url(images/twtter.png);
+}
+.kones {
+    width: 900px;
+    max-width: 100%;
+    margin: 20px auto 0;
+}
+.span {
+    color: orange;
+}
+.qwert {
+    position: relative;
+    top: -60px;
+}
+.right {
+    position: relative;
+    top: -130px;
+}
+.bu button,
+.bo button,
+.bo1 button{
+    position: relative;
+    top: -20px;
+}
+.text p{
+    color: aliceblue;
+}
+@media screen and (max-width: 1024px){
+    .faces{
+        justify-content: center;
+        gap: 30px;
+    }
+    .k,
+    .d{
+        width: 100%;
+        max-width: initial;
+    }
+    .io{
+         width: 100%;
+        max-width: initial;
+    }
+    .fromn{
+        max-width: 570px;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 425px){
+
+}
+@media screen and (max-width: 375px){
+
+}
+@media screen and (max-width: 320px){
+  
+}
