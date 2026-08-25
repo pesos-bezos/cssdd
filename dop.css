@@ -434,9 +434,10 @@ input.io {
 
 }
 @media screen and (max-width: 375px){
-   h1{
-       padding-left:10px;
-   }
+  .ret2{
+      display:flex;
+      justify-content:center;
+  }
 }
 @media screen and (max-width: 320px){
   
