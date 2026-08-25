@@ -32,7 +32,7 @@ header {
 
 ol {
     display: flex;
-    width: 260px;
+    width: 210px;
     justify-content: space-between;
     
 }
